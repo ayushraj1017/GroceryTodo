@@ -180,8 +180,7 @@ function createListItem(id, value) {
                 <button type="button" class="delete-btn">
                   <i class="fas fa-trash"></i>
                 </button>
-              </div>
-            `;
+              </div>`;
   // add event listeners to both buttons;
   const deleteBtn = element.querySelector(".delete-btn");
   deleteBtn.addEventListener("click", deleteItem);
